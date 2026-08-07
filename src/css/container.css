@@ -14,6 +14,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    /* 1128px content area (3 gallery cards) + 16px padding on each side */
+    max-width: 1160px;
   }
 }

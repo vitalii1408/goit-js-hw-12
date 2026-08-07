@@ -1,0 +1,30 @@
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 125px;
+  height: 40px;
+  margin: 0 auto 32px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+
+.load-more:hover,
+.load-more:focus {
+  background-color: #6c8cff;
+}
+
+.load-more.is-hidden {
+  display: none;
+}
